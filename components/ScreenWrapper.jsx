@@ -9,7 +9,9 @@ const ScreenWrapper = ({children, bg}) => {
 
     return (
     <View style={{flex: 1, paddingTop, backgroundColor: bg}}>
-      <Text>ScreenWrapper</Text>
+      {
+        children
+      }
     </View>
   )
 }
